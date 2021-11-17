@@ -1,0 +1,37 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Size {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("Enter size number: ");
+		int num = sc.nextInt();
+		
+		String size;
+		
+		//switch statement to check size
+		
+		switch (num) {
+		
+		case 29:
+			System.out.println("Size = Small");
+			break;
+		case 42:
+			System.out.println("Size = Medium");
+			break;
+		case 44:
+			System.out.println("Size = Large");
+			break;
+		case 48:
+			System.out.println("Size = Extra Large");
+			break;
+			
+		default:
+			System.out.println("Size = Unknown");
+			
+		}
+	}
+
+}
