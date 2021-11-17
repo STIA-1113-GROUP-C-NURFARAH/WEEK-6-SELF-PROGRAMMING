@@ -1,0 +1,19 @@
+Enter size number: 
+29
+Size = Small
+
+Enter size number: 
+42
+Size = Medium
+
+Enter size number: 
+44
+Size = Large
+
+Enter size number: 
+48
+Size = Extra Large
+
+Enter size number: 
+60
+Size = Unknown
